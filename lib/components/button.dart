@@ -18,7 +18,6 @@ class Button extends StatelessWidget {
   });
 
   
-
   Button.big({
     @required this.text,
     this.big = true,

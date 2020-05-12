@@ -40,9 +40,9 @@ class Keyboard extends StatelessWidget {
           ]),
           SizedBox(height: 1,),
           ButtonRow([
-            Button.big(text: '0'),
-            Button(text: '.'),
-            Button.operation(text: '='),
+            Button.big(text: '0', cb: cb),
+            Button(text: '.', cb: cb),
+            Button.operation(text: '=', cb: cb),
           ])
         ],
       ),
